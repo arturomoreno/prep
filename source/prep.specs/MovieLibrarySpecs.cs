@@ -6,6 +6,7 @@ using developwithpassion.specifications.extensions;
 using developwithpassion.specifications.rhinomocks;
 using prep.collections;
 using prep.infrastructure.matching;
+using prep.infrastructure.sorting;
 using prep.specs.utility;
 using prep.infrastructure;
 
