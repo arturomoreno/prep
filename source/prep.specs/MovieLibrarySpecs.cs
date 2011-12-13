@@ -223,6 +223,9 @@ namespace prep.specs
 
       It should_be_able_to_find_all_movies_not_published_by_pixar = () =>
       {
+
+          //todo: homework #2, solve line 230 in OO fashion/open close principle/additivity, thus far I added IProvideAccessToSearchingExtensions.cs, SearchExtensionPoint.cs
+          //....he solved it via small tweaks
 //        var criteria = Where<Movie>.has_a(x => x.production_studio).not.equal_to(ProductionStudio.Pixar);
 //        var results = sut.all_movies().all_items_matching(criteria);
         var results = sut.all_movies().where(x => x.production_studio).not.equal_to(ProductionStudio.Pixar);

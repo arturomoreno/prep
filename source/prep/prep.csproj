@@ -65,6 +65,8 @@
     <Compile Include="collections\ProductionStudio.cs" />
     <Compile Include="collections\ReadOnlySetOf.cs" />
     <Compile Include="infrastructure\matching\Accessor.cs" />
+    <Compile Include="infrastructure\matching\IProvideAccessToSearchingExtensions.cs" />
+    <Compile Include="infrastructure\matching\SearchExtensionPoint.cs" />
     <Compile Include="infrastructure\matching\Condition.cs" />
     <Compile Include="infrastructure\EnumerableExtensions.cs" />
     <Compile Include="infrastructure\matching\DateMatchFilteringExtensions.cs" />
