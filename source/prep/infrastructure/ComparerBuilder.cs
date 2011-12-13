@@ -33,7 +33,9 @@ namespace prep.infrastructure
     public ComparerBuilder<ItemToSort> then_by<PropertyType>(Accessor<ItemToSort, PropertyType> accessor)
       where PropertyType : IComparable<PropertyType>
     {
-      throw new NotImplementedException();
+        //~return EnumerableExtensions.sort_all_using(items, comparer)
+        return comparer(accessor);
+
     }
   }
 }
