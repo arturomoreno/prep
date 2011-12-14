@@ -278,7 +278,7 @@ namespace prep.specs
 
       It should_be_able_to_sort_all_movies_by_title_descending = () =>
       {
-        var results = sut.all_movies().order_by_descending(x => x.title);
+        var results = sut.all_movies().order_by_descending(x => x.title); 
 
 
 
